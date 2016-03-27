@@ -18,9 +18,9 @@ class Exec {
         self.name = name
     }
     
-    init(city: NSDictionary){
-        self.uuid = NSUUID(UUIDString: (city["Uid"] as! String))!
-        self.name = city["Name"] as! String!
+    init(exec: NSDictionary){
+        self.uuid = NSUUID(UUIDString: (exec["Uid"] as! String))!
+        self.name = exec["Name"] as! String!
     }
     
 }

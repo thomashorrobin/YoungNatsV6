@@ -18,9 +18,9 @@ class Blog {
         self.name = name
     }
     
-    init(city: NSDictionary){
-        self.uuid = NSUUID(UUIDString: (city["Uid"] as! String))!
-        self.name = city["Name"] as! String!
+    init(blog: NSDictionary){
+        self.uuid = NSUUID(UUIDString: (blog["Uid"] as! String))!
+        self.name = blog["Name"] as! String!
     }
     
 }
