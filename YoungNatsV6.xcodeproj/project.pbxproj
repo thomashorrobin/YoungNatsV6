@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4949A49A1CA76432003A128B /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4949A4991CA76432003A128B /* Blog.swift */; };
+		4949A49C1CA7657F003A128B /* Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4949A49B1CA7657F003A128B /* Individual.swift */; };
 		49C82A001CA076B700D977AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C829FF1CA076B700D977AF /* AppDelegate.swift */; };
 		49C82A021CA076B700D977AF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C82A011CA076B700D977AF /* FirstViewController.swift */; };
 		49C82A041CA076B700D977AF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C82A031CA076B700D977AF /* SecondViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		4949A4991CA76432003A128B /* Blog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
+		4949A49B1CA7657F003A128B /* Individual.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Individual.swift; sourceTree = "<group>"; };
 		49C829FC1CA076B700D977AF /* YoungNatsV6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoungNatsV6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C829FF1CA076B700D977AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49C82A011CA076B700D977AF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		49C82A171CA0780A00D977AF /* Individuals */ = {
 			isa = PBXGroup;
 			children = (
+				4949A49B1CA7657F003A128B /* Individual.swift */,
 			);
 			name = Individuals;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				4949A49A1CA76432003A128B /* Blog.swift in Sources */,
 				49C82A1A1CA079BE00D977AF /* City.swift in Sources */,
 				49C82A021CA076B700D977AF /* FirstViewController.swift in Sources */,
+				4949A49C1CA7657F003A128B /* Individual.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
