@@ -20,6 +20,7 @@
 		49C82A1C1CA07A2D00D977AF /* Exec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C82A1B1CA07A2D00D977AF /* Exec.swift */; };
 		49D74C9E1CAF1BDA00D8D42C /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D74C9D1CAF1BDA00D8D42C /* Event.swift */; };
 		49D74CA01CAF1C7700D8D42C /* Announcement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D74C9F1CAF1C7700D8D42C /* Announcement.swift */; };
+		49D74CA31CAF1D5A00D8D42C /* ExecMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D74CA21CAF1D5A00D8D42C /* ExecMember.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		49C82A1B1CA07A2D00D977AF /* Exec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exec.swift; sourceTree = "<group>"; };
 		49D74C9D1CAF1BDA00D8D42C /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		49D74C9F1CAF1C7700D8D42C /* Announcement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Announcement.swift; sourceTree = "<group>"; };
+		49D74CA21CAF1D5A00D8D42C /* ExecMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecMember.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		49C829FE1CA076B700D977AF /* YoungNatsV6 */ = {
 			isa = PBXGroup;
 			children = (
+				49D74CA11CAF1D3E00D8D42C /* ExecMembers */,
 				4949A49D1CA768C4003A128B /* BlogPosts */,
 				49C82A181CA0782D00D977AF /* Blogs */,
 				49C82A171CA0780A00D977AF /* Individuals */,
@@ -142,6 +145,14 @@
 				4949A4991CA76432003A128B /* Blog.swift */,
 			);
 			name = Blogs;
+			sourceTree = "<group>";
+		};
+		49D74CA11CAF1D3E00D8D42C /* ExecMembers */ = {
+			isa = PBXGroup;
+			children = (
+				49D74CA21CAF1D5A00D8D42C /* ExecMember.swift */,
+			);
+			name = ExecMembers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C82A041CA076B700D977AF /* SecondViewController.swift in Sources */,
+				49D74CA31CAF1D5A00D8D42C /* ExecMember.swift in Sources */,
 				49D74C9E1CAF1BDA00D8D42C /* Event.swift in Sources */,
 				49C82A1C1CA07A2D00D977AF /* Exec.swift in Sources */,
 				49C82A001CA076B700D977AF /* AppDelegate.swift in Sources */,
