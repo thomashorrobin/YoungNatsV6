@@ -5,8 +5,8 @@
 //  Created by Thomas Horrobin on 1/04/16.
 //  Copyright © 2016 Young Nationals NZ. All rights reserved.
 //
-
 import Foundation
+
 
 class Event {
     
