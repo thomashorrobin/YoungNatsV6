@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4949A49A1CA76432003A128B /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4949A4991CA76432003A128B /* Blog.swift */; };
 		4949A49C1CA7657F003A128B /* Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4949A49B1CA7657F003A128B /* Individual.swift */; };
+		4949A49F1CA76914003A128B /* BlogPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4949A49E1CA76914003A128B /* BlogPost.swift */; };
 		49C82A001CA076B700D977AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C829FF1CA076B700D977AF /* AppDelegate.swift */; };
 		49C82A021CA076B700D977AF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C82A011CA076B700D977AF /* FirstViewController.swift */; };
 		49C82A041CA076B700D977AF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C82A031CA076B700D977AF /* SecondViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		4949A4991CA76432003A128B /* Blog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
 		4949A49B1CA7657F003A128B /* Individual.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Individual.swift; sourceTree = "<group>"; };
+		4949A49E1CA76914003A128B /* BlogPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogPost.swift; sourceTree = "<group>"; };
 		49C829FC1CA076B700D977AF /* YoungNatsV6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoungNatsV6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C829FF1CA076B700D977AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49C82A011CA076B700D977AF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4949A49D1CA768C4003A128B /* BlogPosts */ = {
+			isa = PBXGroup;
+			children = (
+				4949A49E1CA76914003A128B /* BlogPost.swift */,
+			);
+			name = BlogPosts;
+			sourceTree = "<group>";
+		};
 		49C829F31CA076B700D977AF = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 		49C829FE1CA076B700D977AF /* YoungNatsV6 */ = {
 			isa = PBXGroup;
 			children = (
+				4949A49D1CA768C4003A128B /* BlogPosts */,
 				49C82A181CA0782D00D977AF /* Blogs */,
 				49C82A171CA0780A00D977AF /* Individuals */,
 				49C82A161CA0780100D977AF /* Cities */,
@@ -201,6 +212,7 @@
 				49C82A041CA076B700D977AF /* SecondViewController.swift in Sources */,
 				49C82A1C1CA07A2D00D977AF /* Exec.swift in Sources */,
 				49C82A001CA076B700D977AF /* AppDelegate.swift in Sources */,
+				4949A49F1CA76914003A128B /* BlogPost.swift in Sources */,
 				4949A49A1CA76432003A128B /* Blog.swift in Sources */,
 				49C82A1A1CA079BE00D977AF /* City.swift in Sources */,
 				49C82A021CA076B700D977AF /* FirstViewController.swift in Sources */,
