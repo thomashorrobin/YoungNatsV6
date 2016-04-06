@@ -22,6 +22,8 @@
 		49D74CA31CAF1D5A00D8D42C /* ExecMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D74CA21CAF1D5A00D8D42C /* ExecMember.swift */; };
 		49D74CA51CAF448400D8D42C /* AnnouncementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D74CA41CAF448400D8D42C /* AnnouncementTableViewController.swift */; };
 		49D74CA71CAF461E00D8D42C /* AnnouncementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D74CA61CAF461E00D8D42C /* AnnouncementTableViewCell.swift */; };
+		49E6445A1CB593BF00CE3BF8 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E644591CB593BF00CE3BF8 /* EventTableViewCell.swift */; };
+		49E6445C1CB5942000CE3BF8 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E6445B1CB5942000CE3BF8 /* EventTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		49D74CA21CAF1D5A00D8D42C /* ExecMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecMember.swift; sourceTree = "<group>"; };
 		49D74CA41CAF448400D8D42C /* AnnouncementTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewController.swift; sourceTree = "<group>"; };
 		49D74CA61CAF461E00D8D42C /* AnnouncementTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewCell.swift; sourceTree = "<group>"; };
+		49E644591CB593BF00CE3BF8 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		49E6445B1CB5942000CE3BF8 /* EventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				49D74C9D1CAF1BDA00D8D42C /* Event.swift */,
+				49E644591CB593BF00CE3BF8 /* EventTableViewCell.swift */,
+				49E6445B1CB5942000CE3BF8 /* EventTableViewController.swift */,
 			);
 			name = Events;
 			sourceTree = "<group>";
@@ -233,6 +239,8 @@
 				49D74C9E1CAF1BDA00D8D42C /* Event.swift in Sources */,
 				49C82A1C1CA07A2D00D977AF /* Exec.swift in Sources */,
 				49C82A001CA076B700D977AF /* AppDelegate.swift in Sources */,
+				49E6445C1CB5942000CE3BF8 /* EventTableViewController.swift in Sources */,
+				49E6445A1CB593BF00CE3BF8 /* EventTableViewCell.swift in Sources */,
 				4949A49F1CA76914003A128B /* BlogPost.swift in Sources */,
 				4949A49A1CA76432003A128B /* Blog.swift in Sources */,
 				49D74CA51CAF448400D8D42C /* AnnouncementTableViewController.swift in Sources */,
