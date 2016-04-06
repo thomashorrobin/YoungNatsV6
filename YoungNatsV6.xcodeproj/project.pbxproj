@@ -20,6 +20,8 @@
 		49D74C9E1CAF1BDA00D8D42C /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D74C9D1CAF1BDA00D8D42C /* Event.swift */; };
 		49D74CA01CAF1C7700D8D42C /* Announcement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D74C9F1CAF1C7700D8D42C /* Announcement.swift */; };
 		49D74CA31CAF1D5A00D8D42C /* ExecMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D74CA21CAF1D5A00D8D42C /* ExecMember.swift */; };
+		49D74CA51CAF448400D8D42C /* AnnouncementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D74CA41CAF448400D8D42C /* AnnouncementTableViewController.swift */; };
+		49D74CA71CAF461E00D8D42C /* AnnouncementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D74CA61CAF461E00D8D42C /* AnnouncementTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		49D74C9D1CAF1BDA00D8D42C /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		49D74C9F1CAF1C7700D8D42C /* Announcement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Announcement.swift; sourceTree = "<group>"; };
 		49D74CA21CAF1D5A00D8D42C /* ExecMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecMember.swift; sourceTree = "<group>"; };
+		49D74CA41CAF448400D8D42C /* AnnouncementTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewController.swift; sourceTree = "<group>"; };
+		49D74CA61CAF461E00D8D42C /* AnnouncementTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				49D74C9F1CAF1C7700D8D42C /* Announcement.swift */,
+				49D74CA41CAF448400D8D42C /* AnnouncementTableViewController.swift */,
+				49D74CA61CAF461E00D8D42C /* AnnouncementTableViewCell.swift */,
 			);
 			name = Announcements;
 			sourceTree = "<group>";
@@ -229,7 +235,9 @@
 				49C82A001CA076B700D977AF /* AppDelegate.swift in Sources */,
 				4949A49F1CA76914003A128B /* BlogPost.swift in Sources */,
 				4949A49A1CA76432003A128B /* Blog.swift in Sources */,
+				49D74CA51CAF448400D8D42C /* AnnouncementTableViewController.swift in Sources */,
 				49C82A1A1CA079BE00D977AF /* City.swift in Sources */,
+				49D74CA71CAF461E00D8D42C /* AnnouncementTableViewCell.swift in Sources */,
 				49C82A021CA076B700D977AF /* FirstViewController.swift in Sources */,
 				49D74CA01CAF1C7700D8D42C /* Announcement.swift in Sources */,
 				4949A49C1CA7657F003A128B /* Individual.swift in Sources */,
