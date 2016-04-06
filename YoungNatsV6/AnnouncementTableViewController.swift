@@ -36,7 +36,7 @@ class AnnouncementTableViewController: UITableViewController {
     }
     
     func loadRestApi(){
-        let getEndpoint: String = "http://159.203.172.190/announcements.json"
+        let getEndpoint: String = "http://localhost:3000/announcements.json"
         let session = NSURLSession.sharedSession()
         let url = NSURL(string: getEndpoint)!
         let task = session.dataTaskWithURL(url, completionHandler: { ( data: NSData?, response: NSURLResponse?, error: NSError?) -> Void in
