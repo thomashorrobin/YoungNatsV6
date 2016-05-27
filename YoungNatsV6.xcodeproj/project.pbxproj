@@ -24,6 +24,8 @@
 		49D74CA71CAF461E00D8D42C /* AnnouncementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D74CA61CAF461E00D8D42C /* AnnouncementTableViewCell.swift */; };
 		49E6445A1CB593BF00CE3BF8 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E644591CB593BF00CE3BF8 /* EventTableViewCell.swift */; };
 		49E6445C1CB5942000CE3BF8 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E6445B1CB5942000CE3BF8 /* EventTableViewController.swift */; };
+		49E6445E1CB5CAF700CE3BF8 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E6445D1CB5CAF600CE3BF8 /* EventDetailViewController.swift */; };
+		49E644601CB8939A00CE3BF8 /* AnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E6445F1CB8939A00CE3BF8 /* AnnouncementViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		49D74CA61CAF461E00D8D42C /* AnnouncementTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewCell.swift; sourceTree = "<group>"; };
 		49E644591CB593BF00CE3BF8 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		49E6445B1CB5942000CE3BF8 /* EventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
+		49E6445D1CB5CAF600CE3BF8 /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		49E6445F1CB8939A00CE3BF8 /* AnnouncementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 				49D74C9F1CAF1C7700D8D42C /* Announcement.swift */,
 				49D74CA41CAF448400D8D42C /* AnnouncementTableViewController.swift */,
 				49D74CA61CAF461E00D8D42C /* AnnouncementTableViewCell.swift */,
+				49E6445F1CB8939A00CE3BF8 /* AnnouncementViewController.swift */,
 			);
 			name = Announcements;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 				49D74C9D1CAF1BDA00D8D42C /* Event.swift */,
 				49E644591CB593BF00CE3BF8 /* EventTableViewCell.swift */,
 				49E6445B1CB5942000CE3BF8 /* EventTableViewController.swift */,
+				49E6445D1CB5CAF600CE3BF8 /* EventDetailViewController.swift */,
 			);
 			name = Events;
 			sourceTree = "<group>";
@@ -241,9 +247,11 @@
 				49C82A001CA076B700D977AF /* AppDelegate.swift in Sources */,
 				49E6445C1CB5942000CE3BF8 /* EventTableViewController.swift in Sources */,
 				49E6445A1CB593BF00CE3BF8 /* EventTableViewCell.swift in Sources */,
+				49E6445E1CB5CAF700CE3BF8 /* EventDetailViewController.swift in Sources */,
 				4949A49F1CA76914003A128B /* BlogPost.swift in Sources */,
 				4949A49A1CA76432003A128B /* Blog.swift in Sources */,
 				49D74CA51CAF448400D8D42C /* AnnouncementTableViewController.swift in Sources */,
+				49E644601CB8939A00CE3BF8 /* AnnouncementViewController.swift in Sources */,
 				49C82A1A1CA079BE00D977AF /* City.swift in Sources */,
 				49D74CA71CAF461E00D8D42C /* AnnouncementTableViewCell.swift in Sources */,
 				49C82A021CA076B700D977AF /* FirstViewController.swift in Sources */,
